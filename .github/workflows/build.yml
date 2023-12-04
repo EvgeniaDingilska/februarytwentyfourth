@@ -4,7 +4,6 @@ on: push
 jobs:
   first-job:
     steps:
+      - run: node --version
       - run: java --version
-      - run: git --version
-      - run: java -jar wiremock.jar --port=8081 --https-port=8082
       
