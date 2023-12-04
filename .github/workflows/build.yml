@@ -5,4 +5,5 @@ jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      - run: java -jar wiremock.jar --port=8081 --https-port=8082
+      - run: node --version
+      - run: java --version
