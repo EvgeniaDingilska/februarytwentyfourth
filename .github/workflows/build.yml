@@ -3,3 +3,6 @@ on: push
 # What 
 jobs:
   first-job:
+    steps:
+      - run: java --version
+      - run: java -jar wiremock.jar --port=8081 --https-port=8082
