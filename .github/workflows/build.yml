@@ -1,1 +1,4 @@
+#When we want to trigger the job
 on: push
+# What 
+jobs:
