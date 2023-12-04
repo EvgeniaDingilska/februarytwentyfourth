@@ -1,6 +1,6 @@
 #When we want to trigger the job
 on: push
-# What 
+# What kind of jobs array we will use
 jobs:
   first-job:
     runs-on: windows-latest
