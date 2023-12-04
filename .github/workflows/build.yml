@@ -5,9 +5,10 @@ jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      - run: node --version
-  - name: Install Java
-        uses: actions/setup-java@v2
+    - name: Install Java
+    - uses: actions/setup-java@v2
         with:
           java-version: '17'
           distribution: 'adopt'
+    - run: node --version
+      
