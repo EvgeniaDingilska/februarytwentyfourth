@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionId>871d5e51-d2a7-4870-bb94-dda57dbfbbbb</ConnectionId>
+  <Command SequenceId="125">
+    <Type>Response</Type>
+    <Name>DeleteInvestigation</Name>
+    <InputParams />
+    <OutputParams />
+    <Items />
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+
+
+
+

@@ -1,0 +1,20 @@
+{
+    "id": "f9fedb2e-3868-4c89-82f3-462430924cf3",
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"GetOutputsAndEvents\"]" },
+            {"matchesXPath" : "/Communication/ConnectionId[.= \"1b35adbb-2c02-464e-a039-15942a3a0dbf\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "bodyFileName": "get_outputs_and_events.xml"
+    }
+}
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication>
+   <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+   <Command SequenceId="2">
+      <Type>Response</Type>
+      <Name>LogIn</Name>
+      <InputParams />
+      <OutputParams>
+        <Param Name="Username" Value="tatest" />
+        <Param Name="Email" />
+        <Param Name="VideoPush" Value="No" />
+        <Param Name="VideoPushAudio" Value="No" />
+        <Param Name="Bookmark" Value="Yes" />
+        <Param Name="SupportsBookmarks" Value="Yes" />
+        <Param Name="SupportsBookmarkExtendedSearchCameraIds" Value="Yes" />
+        <Param Name="VideoPushLocation" Value="No" />
+        <Param Name="OutputsAndEvents" Value="Yes" />
+        <Param Name="Exports" Value="Yes" />
+        <Param Name="ViewOthersExports" Value="Yes" />
+        <Param Name="ExportToAvi" Value="No" />
+        <Param Name="ExportToDb" Value="No" />
+        <Param Name="ExportToMkv" Value="No" />
+        <Param Name="Investigations" Value="Yes" />
+        <Param Name="ViewOthersInvestigations" Value="Yes" />
+        <Param Name="AllCamerasView" Value="Yes" />
+        <Param Name="NativeStreamingAvailable" Value="No" />
+        <Param Name="NativeStreamingRequired" Value="No" />
+        <Param Name="NativeStreamingSuggested" Value="No" />
+        <Param Name="TranscodedStreamingAvailable" Value="Yes" />
+        <Param Name="SegmentedStreamingAvailable" Value="No" />
+        <Param Name="FakeSegmentedStreamingNotSupported" Value="Yes" />
+        <Param Name="SupportsCarousel" Value="Yes" />
+        <Param Name="SupportsExtendedResamplingFactor" Value="Yes" />
+        <Param Name="MultiCameraPlayback" Value="Yes" />
+        <Param Name="SupportsAlarms" Value="Yes" />
+        <Param Name="AllViewsAndCamerasEnabled" Value="Yes" />
+        <Param Name="Footages" Value="No" />
+        <Param Name="SupportsAccessControl" Value="Yes" />
+        <Param Name="SupportsOutgoingAudio" Value="Yes" />
+        <Param Name="SupportsOutgoingPTTAudio" Value="Yes" />
+        <Param Name="SupportsIncomingAudio" Value="Yes" />
+        <Param Name="SupportsCommaSeparatedItemIds" Value="Yes" />
+        <Param Name="PtzGestures" Value="Yes" />
+        <Param Name="BasicUserManagementEnabled" Value="Yes" />
+        <Param Name="ServerDescription" Value="XProtect Corporate 2023 R3" />
+        <Param Name="ServerType" Value="600" />
+        <Param Name="DirectStreamingLive" Value="Yes" />
+        <Param Name="DirectStreamingPlayback" Value="No" />
+        <Param Name="SupportsH264InFmp4" Value="Yes" />
+        <Param Name="SupportsH265InFmp4" Value="No" />
+        <Param Name="DirectStreamingValidLicense" Value="Yes" />
+        <Param Name="SupportsAdaptiveStreaming" Value="Yes" />
+        <Param Name="SupportsSmartMap" Value="Yes" />
+        <Param Name="SupportsShare" Value="Yes" />
+        <Param Name="SupportsPlaybackInfoHeader" Value="Yes" />
+        <Param Name="SupportsPlaybackInTimeRange" Value="Yes" />
+        <Param Name="SupportsPlaybackAutoLoop" Value="Yes" />
+        <Param Name="ConfigurationId" Value="47f5b24a-4b7f-44b4-93d1-371b03e75617" />
+        <Param Name="CoBranding" Value="No" />
+      </OutputParams>
+      <Result>OK</Result>
+   </Command>
+</Communication>
+
+
+
+

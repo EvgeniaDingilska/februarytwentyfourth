@@ -1,0 +1,18 @@
+{
+    "priority": 10,
+    "id": "745d8bf8-8801-4731-ae27-1772b71bf5a8",
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"LogIn\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <Communication> <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId> <Command SequenceId=\"2\"> <Type>Response</Type> <Name>LogIn</Name> <InputParams/> <OutputParams> <Param Name=\"SecondStepAuthenticationProvider\" Value=\"EMail\" /></OutputParams> <Result>Error</Result> <ErrorCode>34</ErrorCode> </Command> </Communication>\r\n\r\n"
+    }
+}

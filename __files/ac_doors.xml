@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+   <Command SequenceId="197">
+      <Type>Response</Type>
+      <Name>GetAccessControlDoors</Name>
+      <InputParams />
+      <OutputParams>
+         <Param Name="AccessControlSystemsCount" Value="2" />
+      </OutputParams>
+      <Items>
+         <Item Id="0e5613a1-9c21-45d2-bac5-ea6948e474f4" Type="AccessControlDoor">
+            <Properties AccessControlSystemId="c82db71e-3828-4db9-9c6c-e09e3c1551bc" AccessControlDoorName="Front Door" AccessControlSystemName="Test AC System" AccessControlDoorType="Door Unit" />
+            <Items>
+               <Item Id="00000000-0000-0000-0000-000000000000" Name="AccessControlDoorCategories" Type="Folder">
+                  <Properties />
+                  <Items>
+                     <Item Id="00000000-0000-0000-0000-000000000000" Name="Door">
+                        <Properties />
+                        <Items />
+                     </Item>
+                  </Items>
+               </Item>
+               <Item Id="00000000-0000-0000-0000-000000000000" Name="RelatedCameras" Type="Folder">
+                  <Properties />
+                  <Items>
+                     <Item Id="78e3c6f5-3a10-4131-89dc-7613f4a29921" Name="Axis 1 - Camera 1" Type="Camera">
+                        <Properties />
+                        <Items />
+                     </Item>
+                     <Item Id="bd10c5b6-f87d-4464-aa38-1e9abcfb99ea" Name="Axis 2 - Camera 1" Type="Camera">
+                        <Properties />
+                        <Items />
+                     </Item>
+                  </Items>
+               </Item>
+               <Item Id="00000000-0000-0000-0000-000000000000" Name="AccessControlCommands" Type="Folder">
+                  <Properties />
+                  <Items>
+                     <Item Id="00000000-0000-0000-0000-000000000000">
+                        <Properties AccessControlCommandType="RuleCommand" AccessControlCommandLabel="Unlock" AccessControlOperationalInstanceId="15e0e57d-c69b-3eb6-fa22-c6f9377233db" AccessControlCommandTypeId="2025c8bf-9847-0ba6-f86d-be098eca3a14" AccessControlCommandOrder="0" />
+                        <Items />
+                     </Item>
+                     <Item Id="00000000-0000-0000-0000-000000000000">
+                        <Properties AccessControlCommandType="RuleCommand" AccessControlCommandLabel="Lock" AccessControlOperationalInstanceId="15e0e57d-c69b-3eb6-fa22-c6f9377233db" AccessControlCommandTypeId="2025c8bf-9847-0ba6-f86d-be098eca3a14" AccessControlCommandOrder="1" />
+                        <Items />
+                     </Item>
+                     <Item Id="00000000-0000-0000-0000-000000000000">
+                        <Properties AccessControlCommandType="SystemCommand" AccessControlCommandLabel="Test Output" AccessControlEventId="25e0e57d-c69b-3eb6-fa22-c6f9377233db" AccessControlTriggerSourceObjectId="55c58d02-3451-2c01-4f36-e08f0d2dcd4f" AccessControlKindId="75c58d02-3451-2c01-4f36-e08f0d2dcd4d" />
+                        <Items />
+                     </Item>
+                  </Items>
+               </Item>
+            </Items>
+         </Item>
+         <Item Id="15e0e57d-c69b-3eb6-fa22-c6f9377233db" Type="AccessControlDoor">
+            <Properties AccessControlSystemId="c82db71e-3828-4db9-9c6c-e09e3c1551bc" AccessControlDoorName="Back Door 1" AccessControlSystemName="Test AC System 2" AccessControlDoorType="Door Unit" />
+            <Items>
+               <Item Id="00000000-0000-0000-0000-000000000000" Name="AccessControlDoorCategories" Type="Folder">
+                  <Properties />
+                  <Items>
+                     <Item Id="00000000-0000-0000-0000-000000000000" Name="Door">
+                        <Properties />
+                        <Items />
+                     </Item>
+                  </Items>
+               </Item>
+               <Item Id="00000000-0000-0000-0000-000000000000" Name="RelatedCameras" Type="Folder">
+                  <Properties />
+                  <Items>
+                     <Item Id="92c82837-0b91-4e07-99a5-0da1ab45cc46" Name="Virt 1 - Camera 1" Type="Camera">
+                        <Properties />
+                        <Items />
+                     </Item>
+                  </Items>
+               </Item>
+               <Item Id="00000000-0000-0000-0000-000000000000" Name="AccessControlCommands" Type="Folder">
+                  <Properties />
+                  <Items>
+                     <Item Id="00000000-0000-0000-0000-000000000000">
+                        <Properties AccessControlCommandType="RuleCommand" AccessControlCommandLabel="Unlock" AccessControlOperationalInstanceId="15e0e57d-c69b-3eb6-fa22-c6f9377233db" AccessControlCommandTypeId="2025c8bf-9847-0ba6-f86d-be098eca3a14" AccessControlCommandOrder="0" />
+                        <Items />
+                     </Item>
+                     <Item Id="00000000-0000-0000-0000-000000000000">
+                        <Properties AccessControlCommandType="SystemCommand" AccessControlCommandLabel="Test Output" AccessControlEventId="25e0e57d-c69b-3eb6-fa22-c6f9377233db" AccessControlTriggerSourceObjectId="55c58d02-3451-2c01-4f36-e08f0d2dcd4f" AccessControlKindId="75c58d02-3451-2c01-4f36-e08f0d2dcd4d" />
+                        <Items />
+                     </Item>
+                  </Items>
+               </Item>
+            </Items>
+         </Item>
+      </Items>
+      <Result>OK</Result>
+   </Command>
+</Communication>
+

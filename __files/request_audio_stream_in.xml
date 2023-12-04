@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication>
+  <ConnectionId>d1190509-3a88-4fd4-9e78-aca1f7411ab7</ConnectionId>
+  <Command SequenceId="43">
+    <Type>Response</Type>
+    <Name>RequestAudioStreamIn</Name>
+    <InputParams/>
+    <OutputParams>
+      <Param
+          Name="Challenge"
+          Value="B702CB59-FB46-431F-BD76-EB755F3BE2AA"/>
+      <Param
+          Name="StreamId"
+          Value="36121833-010e-411c-9ba6-6864ce8f83f2"/>
+      <Param
+          Name="ByteOrder"
+          Value="LittleEndian"/>
+    </OutputParams>
+    <Items/>
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+
+
+
+
+

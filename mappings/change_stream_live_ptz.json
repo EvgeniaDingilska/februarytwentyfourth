@@ -1,0 +1,20 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns": [
+            { "matchesXPath": "/Communication/Command/Name[.= \"ChangeStream\"]" },
+            { "matchesXPath": "/Communication/ConnectionId[.= \"1b35adbb-2c02-464e-a039-15942a3a0dbf\"]" },
+            { "matchesXPath": "/Communication/Command/InputParams/Param[@Name=\"VideoId\"][@Value=\"c0b6f45d-d95a-40c7-b300-b8c5fb89b091\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 500,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "bodyFileName": "change_stream_live_ptz.xml"
+    }
+}
+

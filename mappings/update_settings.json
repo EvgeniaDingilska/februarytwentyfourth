@@ -1,0 +1,24 @@
+{
+  "priority": 1,
+  "id": "f944c6c2-ea16-4508-b1f5-7c7379f3ccf6",
+  "request": {
+    "method": "GET",
+    "url": "/Configuration?callback=UpdateSettings",
+    "bodyPatterns": [
+      { "matchesXPath": "/Communication/Command/Name[.= \"UpdateSettings\"]" },
+      { "matchesXPath": "/Configuration?callback=UpdateSettings" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/javascript",
+      "Server": "Microsoft-HTTPAPI/2.0"
+    },
+    "bodyFileName": "configuration.js"
+  }
+}
+
+
+
+

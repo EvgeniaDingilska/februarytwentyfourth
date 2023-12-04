@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+    <Command SequenceId="196">
+        <Type>Response</Type>
+        <Name>GetAlarmDataSettings</Name>
+        <InputParams />
+        <OutputParams />
+        <Items>
+			<Item Id="00000000-0000-0000-0000-000000000000" Name="States" Type="AlarmDataSetting">
+				<Properties />
+				<Items>
+					<Item Id="00000000-0000-0000-0000-000000000000">
+						<Properties Id="60ab3977-090a-4381-a644-8bb51af2fdaa" Level="1" Name="New" />
+						<Items />
+					</Item>
+					<Item Id="00000000-0000-0000-0000-000000000000">
+						<Properties Id="d9d8e200-b335-476b-bd8b-b85b8efc41b6" Level="4" Name="In progress" />
+						<Items />
+					</Item>
+					<Item Id="00000000-0000-0000-0000-000000000000">
+						<Properties Id="a6b840a5-b48a-49cf-a83c-b2a0b010beed" Level="9" Name="On hold" />
+						<Items />
+					</Item>
+					<Item Id="00000000-0000-0000-0000-000000000000">
+						<Properties Id="e9deec24-e845-4946-aea2-c7c43d916d40" Level="11" Name="Closed" />
+						<Items />
+					</Item>
+				</Items>
+			</Item>
+			<Item Id="00000000-0000-0000-0000-000000000000" Name="Priorities" Type="AlarmDataSetting">
+				<Properties />
+				<Items>
+					<Item Id="00000000-0000-0000-0000-000000000000">
+						<Properties Id="8188ff24-b5da-4c19-9ebf-c1d8fc2caa75" Level="1" Name="High" />
+						<Items />
+					</Item>
+					<Item Id="00000000-0000-0000-0000-000000000000">
+						<Properties Id="9ad9338b-22ba-4f2e-bf62-e6948ae99bbf" Level="2" Name="Medium" />
+						<Items />
+					</Item>
+					<Item Id="00000000-0000-0000-0000-000000000000">
+						<Properties Id="34f1f987-6854-44fb-88a5-daa0add1e38a" Level="3" Name="Low" />
+						<Items />
+					</Item>
+				</Items>
+			</Item>
+		</Items>
+        <Result>OK</Result>
+    </Command>
+</Communication>
+
+

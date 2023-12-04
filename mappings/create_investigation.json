@@ -1,0 +1,28 @@
+{
+  "priority": 5,
+  "id": "ddd93a0b-5c83-473c-9686-955bf952dc27",
+  "request": {
+    "method": "POST",
+    "url": "/XProtectMobile/Communication",
+    "bodyPatterns": [
+      {"matchesXPath": "/Communication/Command/Name[.= \"CreateInvestigation\"]"},
+      { "matchesXPath": "/Communication/Command/InputParams/Param[@Name=\"Name\"]" },
+      { "matchesXPath": "/Communication/Command/InputParams/Param[@Name=\"StartTime\"]" },
+      { "matchesXPath": "/Communication/Command/InputParams/Param[@Name=\"EndTime\"]" },
+      { "matchesXPath": "/Communication/Command/InputParams/Param[@Name=\"State\"]" },
+      { "matchesXPath": "/Communication/Command/InputParams/Param[@Name=\"CameraId\"]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/xml"
+    },
+    "bodyFileName": "create_investigation_1.xml"
+  }
+}
+
+
+
+
+

@@ -1,0 +1,3 @@
+RequestSecondStepAuthenticationPin
+GetServerStatus
+GetCapabilities

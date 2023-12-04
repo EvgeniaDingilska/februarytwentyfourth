@@ -1,0 +1,21 @@
+{
+    "priority": 1,
+
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns": [
+            { "matchesXPath": "/Communication/Command/Name[.= \"GetItems\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Server": "Microsoft-HTTPAPI/2.0"
+        },
+        "bodyFileName": "get_items.xml"
+    }
+}
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionId>68ad8814-be61-4385-84b3-6e709874050e</ConnectionId>
+  <Command SequenceId="105">
+    <Type>Response</Type>
+    <Name>LiveMessage</Name>
+    <InputParams />
+    <OutputParams>
+      <Param Name="Challenge" Value="D2F56C09-D272-4A96-A8D2-3B3F727F6923" />
+      <Param Name="Timeout" Value="30" />
+      <Param Name="ConfigurationId" Value="62243735-a6be-4ee6-87f2-bdd397c32660" />
+    </OutputParams>
+    <Items />
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+

@@ -1,0 +1,18 @@
+{
+    "priority":5,
+    "id": "afffcbdc-bd8b-4104-8ea1-e0259e934cec",
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"GetAccessRequestEvents\"]" }
+
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "bodyFileName": "ac_events_list_one_system.xml"   }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionId>bc2eca93-61a9-4b55-9ac0-af9d9cd9d13c</ConnectionId>
+  <Command SequenceId="22">
+    <Type>Response</Type>
+    <Name>UpdateInvestigationData</Name>
+    <InputParams />
+    <OutputParams />
+    <Items />
+    <Result>OK</Result>
+  </Command>
+</Communication>
+

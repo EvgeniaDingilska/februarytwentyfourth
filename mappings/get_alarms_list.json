@@ -1,0 +1,18 @@
+{
+    "id":"f24d10ae-3487-4695-b567-0450f1f9d3d3",
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"GetAlarmList\"]" },
+            {"matchesXPath" : "/Communication/ConnectionId[.= \"1b35adbb-2c02-464e-a039-15942a3a0dbf\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "bodyFileName": "get_alarms_list.xml"   }
+}

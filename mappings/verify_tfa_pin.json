@@ -1,0 +1,18 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"VerifySecondStepAuthenticationPin\"]" },
+            {"matchesXPath" : "/Communication/Command/InputParams/Param[@Name=\"SecondStepAuthenticationPin\"][@Value=\"1234\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "bodyFileName" : "login.xml"
+    }
+}

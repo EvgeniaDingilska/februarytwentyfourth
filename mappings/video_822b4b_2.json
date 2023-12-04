@@ -1,0 +1,15 @@
+{
+    "scenarioName": "LiveVideo",
+    "requiredScenarioState": "frame2",
+    "newScenarioState": "frame3",
+    "request": {
+        "url" : "/XProtectMobile/Video/822b4bfb-c7c6-4b24-ac3a-ff85a8f3100e/"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 100,
+        "headers": {
+            "Content-Type": "application/octet-stream"
+        },
+        "bodyFileName": "frame2.bin"   }
+}

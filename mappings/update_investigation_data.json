@@ -1,0 +1,30 @@
+{
+  "priority": 5,
+  "id": "ddd93a0b-5c83-473c-9686-955bf952dc27",
+  "request": {
+    "method": "POST",
+    "url": "/XProtectMobile/Communication",
+    "bodyPatterns": [
+      { "matchesXPath": "/Communication/Command/Name[.= \"UpdateInvestigationData\"]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/xml"
+    },
+    "bodyFileName": "update_investigation_data.xml"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

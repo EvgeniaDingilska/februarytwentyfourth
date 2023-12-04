@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/XProtectMobile/Communication",
+    "bodyPatterns": [
+      { "matchesXPath": "/Communication/Command/Name[.= \"ChangeMultipleStreams\"]" },
+      { "matchesXPath": "/Communication/ConnectionId[.= \"1b35adbb-2c02-464e-a039-15942a3a0dbf\"]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/xml"
+    },
+    "bodyFileName": "change_multiple_stream.xml"
+  }
+}
+
+
+
+

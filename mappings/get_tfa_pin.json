@@ -1,0 +1,17 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"RequestSecondStepAuthenticationPin\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <Communication> <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId> <Command> <Type>Response</Type> <Name>RequestSecondStepAuthenticationPin</Name> <InputParams/> <OutputParams> </OutputParams> <Result>OK</Result> </Command> </Communication>\r\n\r\n"
+    }
+}

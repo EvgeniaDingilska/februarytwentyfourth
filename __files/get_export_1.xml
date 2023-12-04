@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication>
+   <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+   <Command SequenceId="2">
+      <Type>Response</Type>
+      <Name>GetExport</Name>
+      <InputParams />
+      <OutputParams />
+      <Exports />
+      <Result>Error</Result>
+   </Command>
+</Communication>
+

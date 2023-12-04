@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionId>d6b0db87-0b9a-4f9f-b59c-951435bdcdb2</ConnectionId>
+  <Command SequenceId="6">
+    <Type>Response</Type>
+    <Name>GetAllViewsAndCameras</Name>
+    <InputParams />
+    <OutputParams>
+      <Param Name="Challenge" Value="F7B542F0-D047-4834-AFBC-B7C0ED868303" />
+    </OutputParams>
+    <Items>
+      <Item Id="1b1496cb-1cc1-4486-961a-cc9d78542cfd" Name="Root" Type="Folder">
+        <Properties />
+        <Items>
+          <Item Id="1926418b-893e-4ad6-a258-fb4a9ab57453" Name="All Cameras" Type="Folder">
+            <Properties />
+            <Items>
+              <Item Id="bb16cc8f-a2c5-44f8-9d20-6e9ac57806f5" Name="All Cameras" Type="View">
+                <Properties />
+                <Items>
+                  <Item Id="11da1a05-6cb1-4190-888d-433225b7f235" Name="3Tone Camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" Description="entrance" />
+                    <Items>
+                      <Item Id="1ad9672d-5dc6-4225-a7f1-484787a41208" Name="DirectShow Virtual Video Server (0.0.0.111) - Microphone 1" Type="Microphone">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="210fd7a5-664f-40a0-933c-41a8deb7af6f" Name="Batteries H264 Camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items>
+                      <Item Id="db1673ce-df3f-43c4-a65d-3979bda36137" Name="Batteries Speaker" Type="Speaker">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="efaecd5e-bee6-4cc5-b932-9c69fe9e9cf3" Name="Batteries H265 Camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items />
+                  </Item>
+                  <Item Id="ae0d885d-a66d-4db1-8994-66fb6c722749" Name="Bunny Camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items>
+                      <Item Id="0f5d4ee1-a7a2-4b55-aaf2-3af0636eec9b" Name="Bunny Microphone" Type="Microphone">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                      <Item Id="394d038a-2097-4bb3-815b-8fa905f9b2a4" Name="Bunny Speaker" Type="Speaker">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items>
+                      <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                      <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="fce6c094-7a91-4568-b907-6d77d5048387" Name="Frame Camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items />
+                  </Item>
+                  <Item Id="a6335f18-0684-4801-b0f2-27d98241f813" Name="Green camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items />
+                  </Item>
+                  <Item Id="d76c6a3a-32e2-489f-a6dd-e24d9f345cfb" Name="LPR camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items />
+                  </Item>
+                  <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items>
+                      <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                      <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="e8155d9b-1f71-4591-99d6-aebaeef63d1e" Name="MultiStream Camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items />
+                  </Item>
+                  <Item Id="4f27a79b-351c-4c8b-bf97-09f7e37e2e42" Name="PTZ camera" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="Yes" Preset="Yes" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items />
+                  </Item>
+                  <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items>
+                      <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                      <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="109f2519-9efd-40a4-87dc-9a083465e123" Name="VideoPushCamera40001" Type="Camera">
+                    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                    <Items>
+                      <Item Id="823be3dd-68e4-42c0-b5f2-f3e93b5b8f5c" Name="Video Push Driver (127.0.0.1) - Microphone 1" Type="Microphone">
+                        <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                        <Items />
+                      </Item>
+                    </Items>
+                  </Item>
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+          <Item Id="00000000-0000-0000-0000-000000000000" Name="Public Views" Type="Folder">
+            <Properties />
+            <Items>
+              <Item Id="0369feb8-55f0-4f6e-9bed-126086aac48c" Name="Basic User Group" Type="Folder">
+                <Properties />
+                <Items>
+                  <Item Id="f5c66c36-546f-47b7-b8b0-4d78fcc71429" Name="All cameras Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="2fb2b3c7-de0d-4acf-ae48-529f34861710" Name="10x10 All cameras" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="11da1a05-6cb1-4190-888d-433225b7f235" Name="3Tone Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" Description="entrance" />
+                            <Items>
+                              <Item Id="1ad9672d-5dc6-4225-a7f1-484787a41208" Name="DirectShow Virtual Video Server (0.0.0.111) - Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="d76c6a3a-32e2-489f-a6dd-e24d9f345cfb" Name="LPR camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="4f27a79b-351c-4c8b-bf97-09f7e37e2e42" Name="PTZ camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="Yes" Preset="Yes" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="210fd7a5-664f-40a0-933c-41a8deb7af6f" Name="Batteries H264 Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="db1673ce-df3f-43c4-a65d-3979bda36137" Name="Batteries Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="ae0d885d-a66d-4db1-8994-66fb6c722749" Name="Bunny Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="0f5d4ee1-a7a2-4b55-aaf2-3af0636eec9b" Name="Bunny Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="394d038a-2097-4bb3-815b-8fa905f9b2a4" Name="Bunny Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="e8155d9b-1f71-4591-99d6-aebaeef63d1e" Name="MultiStream Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="efaecd5e-bee6-4cc5-b932-9c69fe9e9cf3" Name="Batteries H265 Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="a6335f18-0684-4801-b0f2-27d98241f813" Name="Green camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="fce6c094-7a91-4568-b907-6d77d5048387" Name="Frame Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="50921896-7579-4912-865d-2f0cf7d26043" Name="Audio Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="e0605e69-b1e4-4831-aaf0-56adfa811c9e" Name="2x1 Audio" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="708d009e-0215-4b1c-941c-c498d5b2d989" Name="Direct Streaming Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="58ace841-bcd3-4129-8a40-42029bfb213a" Name="2x2 Direct Streaming" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="ae0d885d-a66d-4db1-8994-66fb6c722749" Name="Bunny Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="0f5d4ee1-a7a2-4b55-aaf2-3af0636eec9b" Name="Bunny Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="394d038a-2097-4bb3-815b-8fa905f9b2a4" Name="Bunny Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="ae0d885d-a66d-4db1-8994-66fb6c722749" Name="Bunny Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="0f5d4ee1-a7a2-4b55-aaf2-3af0636eec9b" Name="Bunny Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="394d038a-2097-4bb3-815b-8fa905f9b2a4" Name="Bunny Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="ae0d885d-a66d-4db1-8994-66fb6c722749" Name="Bunny Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="0f5d4ee1-a7a2-4b55-aaf2-3af0636eec9b" Name="Bunny Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="394d038a-2097-4bb3-815b-8fa905f9b2a4" Name="Bunny Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="ae0d885d-a66d-4db1-8994-66fb6c722749" Name="Bunny Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="0f5d4ee1-a7a2-4b55-aaf2-3af0636eec9b" Name="Bunny Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="394d038a-2097-4bb3-815b-8fa905f9b2a4" Name="Bunny Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="19f5e141-000d-4154-a70a-7f00e48f54ef" Name="Drift Race Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="b53602b4-e1da-44b6-be06-6b9c692c21bd" Name="Drift Race" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="dc9d07c3-fdc2-4fec-8865-faab7c7b0891" Name="PTT Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="a90991c0-4671-4807-bf4f-0f44151dd8a1" Name="2x2 PTT" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="210fd7a5-664f-40a0-933c-41a8deb7af6f" Name="Batteries H264 Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="db1673ce-df3f-43c4-a65d-3979bda36137" Name="Batteries Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="57a4a395-5e56-4dc1-a159-00f2bf31a8eb" Name="Ptz Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="03b0c8cd-f9d4-4827-bdbd-e188fb73a419" Name="2x2 PTZ" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="4f27a79b-351c-4c8b-bf97-09f7e37e2e42" Name="PTZ camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="Yes" Preset="Yes" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="4f27a79b-351c-4c8b-bf97-09f7e37e2e42" Name="PTZ camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="Yes" Preset="Yes" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="ace3811d-6a17-4228-be72-ffe7d32181cf" Name="Streaming Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="0ca6397a-5d54-40e9-964b-d6b4a0f726ee" Name="2x2 Streaming view" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="210fd7a5-664f-40a0-933c-41a8deb7af6f" Name="Batteries H264 Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="db1673ce-df3f-43c4-a65d-3979bda36137" Name="Batteries Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="efaecd5e-bee6-4cc5-b932-9c69fe9e9cf3" Name="Batteries H265 Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                </Items>
+              </Item>
+              <Item Id="7557deb2-f6ed-46df-9e53-433c4299bba8" Name="Shared" Type="Folder">
+                <Properties />
+                <Items>
+                  <Item Id="4ee1af6e-2902-43d4-aef2-7b5ea0e1a18d" Name="Automation" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="a18f1f4b-5ce5-464c-92e4-ae5839a39e1b" Name="Mixed cameras" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="d76c6a3a-32e2-489f-a6dd-e24d9f345cfb" Name="LPR camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="4f27a79b-351c-4c8b-bf97-09f7e37e2e42" Name="PTZ camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="Yes" Preset="Yes" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="210fd7a5-664f-40a0-933c-41a8deb7af6f" Name="Batteries H264 Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="db1673ce-df3f-43c4-a65d-3979bda36137" Name="Batteries Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="647dbb21-8fc0-47b8-a358-b341e8ac2176" Name="MultiStream Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="51a00a14-4d35-4919-a30d-90e27b2274e8" Name="10x10 1 MultiStream camera" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="e8155d9b-1f71-4591-99d6-aebaeef63d1e" Name="MultiStream Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="bce5541f-dc26-43b2-a3d1-36496622f06c" Name="10x10 1 TestDriver camera" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="53a88bd7-d76e-456e-89e9-2d32466756ed" Name="1x1 MultiStream" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="e8155d9b-1f71-4591-99d6-aebaeef63d1e" Name="MultiStream Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="98b07868-12c7-40e1-8d1c-4352634f6dbd" Name="1x1 TestDriver" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="119019c5-fb77-4597-ad4b-865ca56e25d5" Name="3x3 1 MultiStream camera" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="e8155d9b-1f71-4591-99d6-aebaeef63d1e" Name="MultiStream Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="03912305-bc57-4964-bf0b-00776f19ce32" Name="3x3 1 TestDriver camera" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                  <Item Id="8de4b3cf-052a-4df5-b624-acd4dc74d517" Name="SC Test Group" Type="Folder">
+                    <Properties />
+                    <Items>
+                      <Item Id="74e3e302-0cda-48fb-8db6-df9562c11580" Name="1x1 Green Feed" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="a6335f18-0684-4801-b0f2-27d98241f813" Name="Green camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="9a739095-9005-4697-b4a5-6132221f99b4" Name="2x2 4 Cameras" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="a6335f18-0684-4801-b0f2-27d98241f813" Name="Green camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="4f27a79b-351c-4c8b-bf97-09f7e37e2e42" Name="PTZ camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="Yes" Preset="Yes" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="d76c6a3a-32e2-489f-a6dd-e24d9f345cfb" Name="LPR camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="ca99ba34-c2d0-40fd-83dc-fb57f33513f7" Name="Test Driver Camera 1" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="efad68da-08fa-4262-989a-6ed5270b2b3a" Name="Test Driver Microphone 1" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4cd36e-34ac-4211-9a8c-6b80a14f5ef1" Name="Test Driver Speaker 1" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="858158d7-513b-44eb-9700-4fc38047211d" Name="2x2 Mini Sequencer" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="74c51090-ad42-4b85-a50c-68b3d2495c4f" Name="2x2 Multi Listen and Speak" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="a6335f18-0684-4801-b0f2-27d98241f813" Name="Green camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                          <Item Id="787d89cd-26b1-416f-8a92-be0a4851aab0" Name="Mini Sequencer camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="57e4fcff-9d98-47ea-884d-8cb9c63c840b" Name="Mini Sequence Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3227f9ba-5d09-4b2a-b1c0-e935a1d2b4ba" Name="Mini Sequence Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="44f6b75e-fd18-417f-975d-24ff108019fa" Name="Drift Race Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="65660376-15f4-436b-ab5f-6c7ea0a6b336" Name="Drift Race Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="3c4f5bdf-ede9-47ae-840a-78223d1636b0" Name="Drift Race Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                          <Item Id="ae0d885d-a66d-4db1-8994-66fb6c722749" Name="Bunny Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="0f5d4ee1-a7a2-4b55-aaf2-3af0636eec9b" Name="Bunny Microphone" Type="Microphone">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                              <Item Id="394d038a-2097-4bb3-815b-8fa905f9b2a4" Name="Bunny Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="625c3f2c-4643-448d-9879-0d487ac3a50e" Name="4x4 All Items" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="d76c6a3a-32e2-489f-a6dd-e24d9f345cfb" Name="LPR camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="c95e4299-9c4c-4279-844f-69e883c99f64" Name="Automated testing" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="210fd7a5-664f-40a0-933c-41a8deb7af6f" Name="Batteries H264 Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items>
+                              <Item Id="db1673ce-df3f-43c4-a65d-3979bda36137" Name="Batteries Speaker" Type="Speaker">
+                                <Properties Live="Yes" Playback="Yes" ExportDatabase="Yes" Speak="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                                <Items />
+                              </Item>
+                            </Items>
+                          </Item>
+                        </Items>
+                      </Item>
+                      <Item Id="791182d5-6b4c-46fe-a14e-feff0c71ef52" Name="Frames" Type="View">
+                        <Properties />
+                        <Items>
+                          <Item Id="fce6c094-7a91-4568-b907-6d77d5048387" Name="Frame Camera" Type="Camera">
+                            <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" />
+                            <Items />
+                          </Item>
+                        </Items>
+                      </Item>
+                    </Items>
+                  </Item>
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+

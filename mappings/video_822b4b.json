@@ -1,0 +1,12 @@
+{
+    "request": {
+        "url" : "/XProtectMobile/Video/_____822b4bfb-c7c6-4b24-ac3a-ff85a8f3100e/"
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 100,
+        "headers": {
+            "Content-Type": "application/octet-stream"
+        },
+        "bodyFileName": "822b4bfb-c7c6-4b24-ac3a-ff85a8f3100e.bin"   }
+}

@@ -1,0 +1,17 @@
+{
+    "priority": 5,
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"GetViews\"]" },
+            {"matchesXPath" : "/Communication/ConnectionId[.= \"1b35adbb-2c02-464e-a039-15942a3a0dbf\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "body": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <Communication> <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId> <Command SequenceId=\"116\"><SubItems> </SubItems> <Type>Response</Type> <Name>GetViews</Name> <InputParams/> <OutputParams /> <Result>Error</Result> </Command> </Communication>\r\n\r\n" }
+}

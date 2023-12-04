@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Communication>
+	<ConnectionId>1ec45c8e-d578-4ab8-96b2-0ebe304e78f2</ConnectionId>
+	<Command>
+		<Type>Request</Type>
+		<Name>ChangeStream</Name>
+		<InputParams>
+			<Param Name="PtzPreset" Value="007 - middle traffic" />
+			<Param Name="VideoId" Value="c0b6f45d-d95a-40c7-b300-b8c5fb89b091" />
+		</InputParams>
+	</Command>
+</Communication>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+    <Command SequenceId="197">
+        <Type>Response</Type>
+        <Name>GetAccessControlEvents</Name>
+        <InputParams />
+        <OutputParams>
+        </OutputParams>
+        <Items>
+        </Items>
+        <Result>Error</Result>
+        <ErrorCode>50</ErrorCode>
+    </Command>
+</Communication>
+

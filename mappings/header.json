@@ -1,0 +1,17 @@
+{
+    "priority": 5,
+    "request": {
+        "method": "GET",
+        "url": "/Headers/Default?callback=Localization.setDefaultLanguage"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/javascript",
+            "Server": "Microsoft-HTTPAPI/2.0"
+        },
+        "bodyFileName": "header.js"
+    }
+}
+
+

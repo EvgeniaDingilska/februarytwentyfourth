@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionId>39abc004-a0cd-4b50-bc0d-5ffd3035d70a</ConnectionId>
+  <Command SequenceId="26">
+    <Type>Response</Type>
+    <Name>ChangeMultipleStreams</Name>
+    <InputParams />
+    <OutputParams>
+      <Param Name="Challenge" Value="1796303E-21FF-40FF-B796-4DA435CFDC5D" />
+    </OutputParams>
+    <Items />
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+

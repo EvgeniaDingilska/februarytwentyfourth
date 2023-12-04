@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication>
+    <ConnectionId />
+    <Command SequenceId="1">
+        <Type>Response</Type>
+        <Name>Connect</Name>
+        <InputParams />
+        <OutputParams>
+            <Param Name="ConnectionId" Value="1b35adbb-2c02-464e-a039-15942a3a0dbf" />
+            <Param Name="Timeout" Value="30" />
+            <Param Name="ProtocolVersion" Value="3.1.0.0" />
+            <Param Name="PublicKey" Value="MKFr66j7ivEHlEewA3lkzSYsc+lrZQRaUZzKwwpBpMmtLZdoDwXirCbo+TPQX2FEX/8X0fdXLI5GQCcTSg4ENXTowUd5IBIC28b1P/Je28jM0gyLgvEV+PMK4S8OMZMNewtkjiCx25xLFX/9nw8PJ4cXCnAjOdhGMYinfJvIBEs=" />
+            <Param Name="ServerId" Value="11111111-2222-3333-4444-55555555555" />
+        </OutputParams>
+        <Result>OK</Result>
+    </Command>
+</Communication>
+

@@ -1,0 +1,18 @@
+{
+    "id" : "f18a9019-7331-4821-94ac-34e50b1242c1",
+    "priority": 8,
+    "request": {
+        "method": "POST",
+        "url": "/XProtectMobile/Communication",
+        "bodyPatterns" : [
+            {"matchesXPath" : "/Communication/Command/Name[.= \"LiveMessage\"]" },
+            {"matchesXPath" : "/Communication/ConnectionId[.= \"1b35adbb-2c02-464e-a039-15942a3a0dbf\"]" }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml"
+        },
+        "bodyFileName": "live_message_error.xml"   }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication>
+   <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+   <Command SequenceId="116">
+      <Type>Response</Type>
+      <Name>LiveMessage</Name>
+      <Items>
+         <Item Type="Notification" Id="00000000-0000-0000-0000-000000000000">
+            <Properties loc-key="INAPP Notification" />
+         </Item>
+      </Items>
+      <InputParams />
+      <OutputParams>
+         <Param Name="Timeout" Value="30" />
+      </OutputParams>
+      <Result>OK</Result>
+   </Command>
+</Communication>
+

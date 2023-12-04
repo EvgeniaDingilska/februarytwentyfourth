@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionId>011ab49e-01ca-4645-8f75-af79ff75bb2f</ConnectionId>
+  <Command SequenceId="69">
+    <Type>Response</Type>
+    <Name>RequestStream</Name>
+    <InputParams />
+    <OutputParams>
+      <Param Name="Challenge" Value="FAE94447-7A5B-4B02-86A1-354736F50429" />
+      <Param Name="Live" Value="Yes" />
+      <Param Name="Playback" Value="Yes" />
+      <Param Name="PTZ" Value="No" />
+      <Param Name="Preset" Value="No" />
+      <Param Name="ExportAvi" Value="Yes" />
+      <Param Name="ExportDatabase" Value="Yes" />
+      <Param Name="ExportJpeg" Value="Yes" />
+      <Param Name="BookmarkAdd" Value="Yes" />
+      <Param Name="BookmarkEdit" Value="Yes" />
+      <Param Name="BookmarkView" Value="Yes" />
+      <Param Name="BookmarkDelete" Value="Yes" />
+      <Param Name="Sequences" Value="Yes" />
+      <Param Name="VideoId" Value="7a8bd30f-1a38-4bf5-85b2-0501298b8ceb" />
+      <Param Name="StreamId" Value="7a8bd30f-1a38-4bf5-85b2-0501298b8ceb" />
+      <Param Name="ByteOrder" Value="LittleEndian" />
+      <Param Name="StreamType" Value="Transcoded" />
+      <Param Name="SrcWidth" Value="1920" />
+      <Param Name="SrcHeight" Value="1440" />
+    </OutputParams>
+    <Items />
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+
+
+
+
+

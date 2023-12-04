@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+	<Command SequenceId="197">
+		<Type>Response</Type>
+		<Name>GetAccessControlEventCategories</Name>
+		<InputParams />
+		<OutputParams />
+		<Items>
+			<Item Id="a82db71e-3828-4db9-9c6c-e09e3c1551bc" 
+				Type="AccessControlEventCategory">
+				<Properties AccessControlEventCategoryName="Access granted" />
+				<Items />
+			</Item>
+			<Item Id="b82db71e-3828-4db9-9c6c-e09e3c1551bc" 
+				Type="AccessControlEventCategory">
+				<Properties AccessControlEventCategoryName="Access denied" />
+				<Items />
+			</Item>
+			<Item Id="c82db71e-3828-4db9-9c6c-e09e3c1551bc" 
+				Type="AccessControlEventCategory">
+				<Properties AccessControlEventCategoryName="Access request" />
+				<Items />
+			</Item>
+		</Items>
+		<Result>OK</Result>
+	</Command>
+</Communication>
+

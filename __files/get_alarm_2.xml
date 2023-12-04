@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+    <Command SequenceId="197">
+        <Type>Response</Type>
+        <Name>GetAlarmList</Name>
+        <InputParams />
+        <OutputParams />
+        <Items>
+            <Item Id="cf2bb5e6-b621-423a-9b12-15c687d7c106"
+					Name="One-Camera Alarm"
+					Type="Alarm">
+                <Properties 
+					State="4"
+					Type="System Alarm"
+					Timestamp="1442216554503"
+					Source="Simulated camera - Output 1"
+					Message="Motion Detected" Priority="2"
+					CameraId="88d5a6e1-888a-4de1-b7ed-3ca3c58a7c0b"
+					AssignedTo=""
+					Description=""
+					StateName="In progress"
+					PriorityName="Medium"
+					SourceId="43eb059b-d198-46b5-876f-d90b5f6cecc1" />
+                <Items>
+                </Items>
+            </Item>
+         </Items>
+        <Result>OK</Result>
+    </Command>
+</Communication>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Communication>
+   <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+   <Command SequenceId="116">
+      <Type>Response</Type>
+      <Name>GetAllViewsAndCameras</Name>
+      <InputParams />
+      <OutputParams />
+      <Items>
+         <Item Id="1b1496cb-1cc1-4486-961a-cc9d78542cfd" Name="root" Type="Folder" Folder="Yes">
+            <Properties />
+            <Items>
+               <Item Id="1926418b-893e-4ad6-a258-fb4a9ab57453" Name="All Cameras" Type="Folder" Folder="Yes">
+                  <Properties />
+                  <Items>
+                     <Item Id="bb16cc8f-a2c5-44f8-9d20-6e9ac57806f5" Name="All Cameras" Type="View">
+                        <Properties />
+                        <Items>
+                           <Item Id="78e3c6f5-3a10-4131-89dc-7613f4a29921" Name="Axis 1 - Camera 1" Type="Camera">
+							    <Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" Latitude="44,306046890348" Longitude="7,69042969103508" CoverageDirection="-0,919194444444445" CoverageDepth="89937,77" CoverageFieldOfView="0,214027777777778" />
+							   <Items />
+                           </Item>
+                           <Item Id="bd10c5b6-f87d-4464-aa38-1e9abcfb99ea" Name="Axis 2 - Camera 1" Type="Camera">
+                              <Properties />
+                              <Items>
+                                    <Item Id="aaa0c5b6-f87d-4464-aa38-1e9abcfb99ea" Name="Axis 2 - Microphone 1" Type="Microphone">
+                                        <Properties Live="No" />
+                                        <Items />
+                                    </Item>
+                              </Items>
+                           </Item>
+                           <Item Id="37163fdd-63ee-4d09-bb13-60b908a8ec2b" Name="Video Push Driver (10.4.15.67) - Camera 1" Type="Camera">
+								<Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" Latitude="44,306" Longitude="7,69" CoverageDirection="0,919194444444445" CoverageDepth="9937,77" CoverageFieldOfView="0,314027777777778" />
+								 <Items>
+									<Item Id="aaa0c5b6-f87d-4464-aa38-1e9abcfb99ea" Name="Axis 2 - Microphone 1" Type="Microphone">
+										<Items />
+									</Item>
+								</Items>
+                           </Item>
+                           <Item Id="92c82837-0b91-4e07-99a5-0da1ab45cc46" Name="Virt 1 - Camera 1" Type="Camera">
+								<Properties Live="Yes" Playback="Yes" PTZ="No" Preset="No" ExportAvi="Yes" ExportDatabase="Yes" ExportJpeg="Yes" BookmarkAdd="Yes" BookmarkEdit="Yes" BookmarkView="Yes" BookmarkDelete="Yes" Sequences="Yes" Latitude="44,306" Longitude="7,69" CoverageDirection="0,919194444444445" CoverageDepth="9937,77" CoverageFieldOfView="0,314027777777778" />
+                              <Items />
+                           </Item>
+                           <Item Id="6d98b394-3a26-4ded-a79b-26a7ed79c47b" Name="Virt 2 - Camera 1" Type="Camera">
+                              <Properties />
+                              <Items />
+                           </Item>
+                           <Item Id="ef06da39-0173-452b-b17c-fdc65d8ff3bc" Name="Virt 3 - Camera 1" Type="Camera">
+                              <Properties />
+                              <Items />
+                           </Item>
+                           <Item Id="3f99bc71-0992-45a1-a914-813e2e361b91" Name="Virt 4 - Camera 1" Type="Camera">
+                              <Properties />
+                              <Items />
+                           </Item>
+                           <Item Id="90c88704-145a-4614-b69f-610c03cbc574" Name="Virt 5 - Camera 1" Type="Camera">
+                              <Properties />
+                              <Items />
+                           </Item>
+                        </Items>
+                     </Item>
+                  </Items>
+               </Item>
+               <Item Id="33e315da-12b0-487c-988f-704fc9e09c70" Name="Private Views" Type="Folder" Folder="Yes">
+                  <Properties />
+                  <Items>
+                     <Item Id="f54524ab-7b21-4130-aff3-7d878cba31d2" Name="4BF8A8B0-54AB-4E82-994F-98D8E9584176" Type="Folder" Folder="Yes">
+                        <Properties />
+                        <Items>
+                           <Item Id="6b195101-d315-4c8b-b741-73a759003871" Name="View" Type="Folder" Folder="Yes">
+                              <Properties />
+                              <Items>
+                                 <Item Id="038ae03b-0403-4a0c-ba08-018295cb5d8b" Name="Three cameras" Type="View">
+                                    <Properties />
+                                    <Items>
+                                       <Item Id="92c82837-0b91-4e07-99a5-0da1ab45cc46" Name="Virt 1 - Camera 1" Type="Camera">
+                                          <Properties />
+                                          <Items />
+                                       </Item>
+                                       <Item Id="78e3c6f5-3a10-4131-89dc-7613f4a29921" Name="Axis 1 - Camera 1" Type="Camera">
+                                          <Properties />
+                                          <Items />
+                                       </Item>
+                                       <Item Id="bd10c5b6-f87d-4464-aa38-1e9abcfb99ea" Name="Axis 2 - Camera 1" Type="Camera">
+                                          <Properties />
+                                            <Items>
+                                                <Item Id="aaa0c5b6-f87d-4464-aa38-1e9abcfb99ea" Name="Axis 2 - Microphone 1" Type="Microphone">
+                                                    <Properties Live="Yes" />
+                                                    <Items />
+                                                </Item>
+                                            </Items>
+                                       </Item>
+                                    </Items>
+                                 </Item>
+                              </Items>
+                           </Item>
+                        </Items>
+                     </Item>
+                  </Items>
+               </Item>
+               <Item Id="00000000-0000-0000-0000-000000000000" Name="Public Views" Type="Folder" Folder="Yes">
+                  <Properties />
+                  <Items />
+               </Item>
+            </Items>
+         </Item>
+      </Items>
+      <Result>OK</Result>
+   </Command>
+</Communication>
+

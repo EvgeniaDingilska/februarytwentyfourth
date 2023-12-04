@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionId>a53f43b3-f9fb-43e2-bfb8-7e29fe202ffd</ConnectionId>
+  <Command SequenceId="197">
+    <Type>Response</Type>
+    <Name>GetBookmarks</Name>
+    <InputParams />
+    <OutputParams />
+    <Items>
+      <Item Id="cf2bb5e6-b621-423a-9b12-15c687d7c105"
+					Name="Quick Bookmark"
+					Type="Bookmark">
+        <Properties
+					Description="Mobile bookmark"
+					Reference="no.000008"
+					StartTime="1623876251625"
+					EndTime="1623876284625"
+					Time="1623876254625"
+					Username="ocsadmin (milestoneocsadmin)"/>
+        <Items>
+          <Item Id="b1d45313-cd7a-4d64-beb2-909e97a5c785"
+					Name="Axis 1 channel device (10.4.13.7) - Camera 1"
+					Type="Camera"/>
+          </Items>
+      </Item>
+    </Items>
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+

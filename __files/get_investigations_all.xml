@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionId>89386a0e-c8e7-48a1-8b42-e57768b60d27</ConnectionId>
+  <Command SequenceId="180">
+    <Type>Response</Type>
+    <Name>GetInvestigation</Name>
+    <InputParams />
+    <OutputParams>
+      <Param Name="Challenge" Value="8B645914-6C39-4F6D-93BA-41105A64D309" />
+    </OutputParams>
+    <Items>
+      <Item Id="d740a7f6-39a4-4550-85e0-e852ff883211" Name="eva" Type="Investigation">
+        <Properties StartTime="1698142872597" EndTime="1698144072597" State="InProgress" Status="Saving" StatusProgress="76" CreatedAt="1698144349447" ModifiedAt="1698144349448" CreatedBy="ta\tatest" ContainsAudio="Yes" ExpirationTime="1698749149447" />
+        <Items>
+          <Item Id="bcf938b5-2d62-4e6d-a077-03e6da57cd7b" Name="Batteries H264 Camera" Type="Camera">
+            <Properties RelatedSpeaker="31f14d01-cee5-4a2c-84c8-68626826b003" OriginDbExportId="034d5a0e-649f-4841-bcbc-1d39344fb20f" SrcWidth="1920" SrcHeight="1440" />
+            <Items />
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+    <Result>OK</Result>
+  </Command>
+</Communication>
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Communication
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ConnectionId>1b35adbb-2c02-464e-a039-15942a3a0dbf</ConnectionId>
+    <Command SequenceId="197">
+        <Type>Response</Type>
+        <Name>GetAlarmList</Name>
+        <InputParams />
+        <OutputParams />
+        <Items>
+            <Item Id="cf2bb5e6-b621-423a-9b12-15c687d7c105"
+					Name="Two-Camera Alarm"
+					Type="Alarm">
+                <Properties 
+					State="4"
+					Type="User Alarm"
+					Timestamp="1442216554603"
+					Source="Axis 1 - Camera 1 - Output 1"
+					Message="Motion Detected" Priority="2"
+					CameraId="78e3c6f5-3a10-4131-89dc-7613f4a29921"
+					AssignedTo="TestUser ([basic]\testuser)"
+					Description="Test Alarm"
+					StateName="In progress"
+					PriorityName="Medium"
+					SourceId="43eb059b-d198-46b5-876f-d90b5f6cecc1" />
+                <Items>
+                    <Item Id="00000000-0000-0000-0000-000000000000" Name="RelatedCameras" Type="Folder">
+                        <Properties />
+                        <Items>
+                             <Item Id="78e3c6f5-3a10-4131-89dc-7613f4a29921" Name="Axis 1 - Camera 1" Type="Camera">
+                                <Properties />
+                                <Items />
+                            </Item>
+                            <Item Id="6d98b394-3a26-4ded-a79b-26a7ed79c47b" Name="Virt 2 - Camera 1" Type="Camera">
+                                <Properties />
+                                <Items />
+                            </Item>
+                        </Items>
+                    </Item>
+                </Items>
+            </Item>
+         </Items>
+        <Result>OK</Result>
+    </Command>
+</Communication>
+
