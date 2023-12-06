@@ -1,14 +1,25 @@
-#When we want to trigger the job
 on: push
-# What kind of jobs array we will use
+
 jobs:
-  first-job:
-    runs-on: windows-latest
+  test:
+    runs-on: ubuntu-latest
+    name: Set up WireMock as a standalone process
     steps:
-    - name: Install Java
-    - uses: actions/setup-java@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Java
+        uses: actions/setup-java@v3
         with:
-          java-version: '17'
-          distribution: 'adopt'
-    - run: node --version
-      
+          distribution: 'temurin'
+          java-version: '11'
+      - name: Action E2E Test
+        uses: williamhaw/setup-wiremock-action@v0.1.2
+        id: setup-wiremock
+        with:
+          http-port: '8080'
+          mappings: 'example-mapping-directory'
+          files: 'example-files-directory'
+          command: 'node example.test.js'
+          verbose: false
+      - name: Get the WireMock standard output
+        run: echo "${{ steps.setup-wiremock.outputs.wiremock-stdout }}"
