@@ -23,9 +23,3 @@ jobs:
           verbose: false
       - name: Get the WireMock standard output
         run: echo "${{ steps.setup-wiremock.outputs.wiremock-stdout }}"
-jobs:
-   test:
-     runs-on: windows-latest
-     name: Start node
-     steps:
-       -run: node --version
