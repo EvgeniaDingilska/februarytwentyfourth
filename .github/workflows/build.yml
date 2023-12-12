@@ -2,7 +2,7 @@ on: push
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     name: Set up WireMock as a standalone process
     steps:
       - name: Checkout
@@ -17,9 +17,15 @@ jobs:
         id: setup-wiremock
         with:
           http-port: '8080'
-          mappings: 'example-mapping-directory'
-          files: 'example-files-directory'
+          mappings: 'C:\Users\TATest\Desktop\WireMock\mappings'
+          files: 'C:\Users\TATest\Desktop\WireMock\__files'
           command: 'node example.test.js'
           verbose: false
       - name: Get the WireMock standard output
         run: echo "${{ steps.setup-wiremock.outputs.wiremock-stdout }}"
+jobs:
+   test:
+     runs-on: windows-latest
+     name: Start node
+     steps:
+       -run: node --version
