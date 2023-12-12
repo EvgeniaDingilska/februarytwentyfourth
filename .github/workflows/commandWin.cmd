@@ -1,2 +1,0 @@
-PlaybackControls
-BeforeAndAfterRecording
